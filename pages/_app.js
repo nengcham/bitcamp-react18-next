@@ -1,8 +1,8 @@
 import {Layout} from "./common";
 import { wrapper } from '../redux/store.ts'
 import Head from 'next/head'
-import Image from "next/image";
 const App = ({ Component, pageProps}) => {
+  
   return (<>
     <Head>
       <meta charSet="utf-8"/>

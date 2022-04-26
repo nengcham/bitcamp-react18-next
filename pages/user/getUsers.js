@@ -43,7 +43,7 @@ export default function Userlist(){
     const [data, setData] = useState([])
     const count = data.length
     useEffect(()=>{
-        axios.get('http://localhost:5000/api/user/list')
+        axios.get('http://localhost:5000/user/list')
         .then(res=>{setData(res.data.users)})
         .catch(err=>{})
     },[])

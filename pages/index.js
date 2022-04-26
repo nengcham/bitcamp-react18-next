@@ -1,6 +1,6 @@
 import axios from "axios";
 import Image from "next/image";
-import React, { useEffect  } from 'react';
+import React, { useEffect } from 'react';
 import tableStyles from './common/style/table.module.css'
 
 export default function Home() {
@@ -28,9 +28,6 @@ export default function Home() {
         <td>
         <div id="timeZone"></div></td>
         </tr>
-        <td>
-        // <Image src="/user/main.gif" width="600" height="400" alt='me'></Image>
-        </td>
     </tbody>
   </table>
   )
