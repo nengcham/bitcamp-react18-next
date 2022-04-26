@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { useDispatch } from 'react-redux';
-import { userActions } from '../../redux/reducers/userReducer.ts';
+import { userActions } from '../../_redux/reducers/userReducer.ts';
 
 export default function  Join(){
     const [user, setUser] =useState({

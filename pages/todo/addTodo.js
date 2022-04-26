@@ -2,7 +2,7 @@ import axios from "axios";
 import { set } from "lodash";
 import React,{useEffect, useState} from "react";
 import { useDispatch } from 'react-redux'
-import { todoActions } from '../../redux/reducers/todoReducer.ts'
+import { todoActions } from '../../_redux/reducers/todoReducer.ts'
 import style from '../common/style/table.module.css'
 
 export default function AppTodo() {

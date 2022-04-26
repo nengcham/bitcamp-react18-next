@@ -1,4 +1,4 @@
-import { createStore, applyMiddleware } from "redux"
+import { applyMiddleware, createStore } from "redux"
 import { createWrapper } from "next-redux-wrapper"
 import createMiddleware from "redux-saga"
 import { composeWithDevTools} from "redux-devtools-extension"

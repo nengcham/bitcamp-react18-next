@@ -2,7 +2,7 @@ import axios from "axios"
 import style from "board/style/board-form.module.css"
 import React, { useState } from "react"
 import { useDispatch } from "react-redux"
-import { addBoard } from '../../redux/reducers/boardReducer.ts'
+import { addBoard } from '../../_redux/reducers/boardReducer.ts'
 
 export default function Board(){
     const [inputs, setInputs] = useState({})

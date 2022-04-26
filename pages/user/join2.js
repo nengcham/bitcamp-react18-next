@@ -12,7 +12,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import * as yup from 'yup';
 import _ from '@lodash';
-import { joinRequest } from '../../redux/reducers/userReducer.ts';
+import { joinRequest } from '../../_redux/reducers/userReducer.ts';
 // import './style/UserLayout.scss'
 // import './style/UserRegister.scss'
 // import { CheckList } from '..';
